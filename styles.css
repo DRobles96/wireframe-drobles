@@ -1,0 +1,232 @@
+body{
+	font-size: 16px;
+	margin: 0;
+}
+
+a {
+	color: blue;
+}
+
+img{
+	width: 300px;
+	border: 4px solid black;
+	border-radius: 10%;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+p{
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial; 
+	margin: 0;
+
+}
+
+.special{
+	color:yellow;
+}
+
+h1, h3{
+	color:green;
+	text-align: center;
+}
+
+.top-section{
+	background-image: url("wallpaper.png")
+}
+
+.headings{
+	width: 300px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.paragraphs{
+
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.nav-bar li{     /*apply this to list items(li) in nav-bar*/
+
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav-bar ul{
+	text-align: right;
+	height: 50px;
+	padding-top: 12px;
+}
+
+.nav-bar{
+	background-color: pink;
+	position: fixed;
+	width: 100%;
+}
+
+.profile-pic img{
+	border-radius: 100%;
+	width: 300px;
+	position: relative;
+	  /*needs to be the same as the one below*/
+
+}
+.profile-pic{
+	width: 300px; 
+	margin: 0 auto; /*sets top and bottom margin 0; and auto calculate margin on left and right (makes it equal thus centered*/
+	padding-top: 100px;
+
+}
+
+.about-me{
+	background-color: pink;
+}
+
+.about-title{
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.about-img{
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+.about-img img{
+	width:400px;
+	margin: 0 auto;
+}
+
+.about-p{
+	width: 50%;
+	height: 50px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+
+
+p {
+	padding: 20px;
+}
+
+
+
+
+.portfolio{
+	background-color: blue;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:0 auto;
+}
+
+.imgone{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+.imgone img{
+	height: 400px;
+}
+
+.imgtwo{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.imgthree{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.fur{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.guard{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.pack{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.contact-me{
+	text-align: center;
+	background-color: pink;
+	margin:0 auto;
+}
+.mywork{
+	text-align: center;
+}
+
+@media only screen and (max-width: 1000px){ /*only pays attention when less then 950 px*/
+		.about-p{
+			width: 100%;
+		}
+		.about-img{
+			width: 100%;
+		}
+		.imgone{
+			width: 100%;
+			display: block; 
+		}
+		.imgtwo{
+			width: 100%;
+			display: block; 
+		}
+		.imgthree{
+			width: 100%;
+			display: block; 
+		}
+		.fur{
+			width: 100%;
+			display: block; 
+		}
+		.guard{
+			width: 100%;
+			display: block; 
+		}
+		.pack{
+			width: 100%;
+			display: block; 
+		}
+}
+
+
+
+.bg{
+	width: 400px;
+	height: 200px;
+	background-color: green;
+
+	position: relative;
+}
+
+.heading{
+	width: 150px;
+	height: 50px;
+	background-color: purple;
+	position: absolute;
+	bottom: 0;
+}
+/*this is a comment*/
